@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         
         let mapViewController = MapUIViewController()
         print(mapViewController)
+        print("whoopsie")
         
         // Do any additional setup after loading the view, typically from a nib.
     }
