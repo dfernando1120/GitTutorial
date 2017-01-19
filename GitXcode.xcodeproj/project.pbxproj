@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51E83BC71E304AF0001F9A21 /* MapUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83BC61E304AF0001F9A21 /* MapUIViewController.swift */; };
 		51EF7BCF1E2EFEBD00A2483F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EF7BCE1E2EFEBD00A2483F /* AppDelegate.swift */; };
 		51EF7BD11E2EFEBD00A2483F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EF7BD01E2EFEBD00A2483F /* ViewController.swift */; };
 		51EF7BD41E2EFEBD00A2483F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51EF7BD21E2EFEBD00A2483F /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51E83BC61E304AF0001F9A21 /* MapUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapUIViewController.swift; sourceTree = "<group>"; };
 		51EF7BCB1E2EFEBD00A2483F /* GitXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EF7BCE1E2EFEBD00A2483F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51EF7BD01E2EFEBD00A2483F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				51EF7BCE1E2EFEBD00A2483F /* AppDelegate.swift */,
 				51EF7BD01E2EFEBD00A2483F /* ViewController.swift */,
 				51EF7BD21E2EFEBD00A2483F /* Main.storyboard */,
+				51E83BC61E304AF0001F9A21 /* MapUIViewController.swift */,
 				51EF7BD51E2EFEBD00A2483F /* Assets.xcassets */,
 				51EF7BD71E2EFEBD00A2483F /* LaunchScreen.storyboard */,
 				51EF7BDA1E2EFEBD00A2483F /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E83BC71E304AF0001F9A21 /* MapUIViewController.swift in Sources */,
 				51EF7BD11E2EFEBD00A2483F /* ViewController.swift in Sources */,
 				51EF7BCF1E2EFEBD00A2483F /* AppDelegate.swift in Sources */,
 			);
@@ -512,6 +516,7 @@
 				51EF7BF51E2EFEBD00A2483F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51EF7BF61E2EFEBD00A2483F /* Build configuration list for PBXNativeTarget "GitXcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				51EF7BF81E2EFEBD00A2483F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51EF7BF91E2EFEBD00A2483F /* Build configuration list for PBXNativeTarget "GitXcodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				51EF7BFB1E2EFEBD00A2483F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
